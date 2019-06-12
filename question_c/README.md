@@ -7,8 +7,8 @@ To start an instance of the cache, using the function
 
 where size is an integer to specify the max size of the cache, time is an integer to specify how long until
 a cache is considered expired from the time it is inserted. and country is the country code of where the server is located for
-geo location purposes. For example for a server in canada, with max size of 10 and an expiring time of 20 minutes, we would call
->cache = Cache(10,20,'CA')
+geo location purposes. For example for a server with max size of 10 and an expiring time of 20 minutes, we would call
+>cache = Cache(10,20)
 
 To add an object to the cache, use the function
 >cache.add(obj)
