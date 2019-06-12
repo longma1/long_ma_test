@@ -1,4 +1,4 @@
-#Question C
+# Question C
 
 LRU cache implementation using double linked list and hash table for constant time lookup/insertion/deletion.
 
@@ -25,7 +25,7 @@ if it has not expired, if it has expired, it is removed and a None type is retur
 To run the test, run the command
 >python -m unittest test_question_a.py
 
-####Note:
+#### Note:
 
 To be honest the requirements are kinda confusing to me, depending on the 
 interpretation and the system design my library could be completely off.   
